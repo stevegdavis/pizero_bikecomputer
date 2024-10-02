@@ -2,7 +2,7 @@ import os
 
 from logger import app_logger
 
-DEFAULT_RESOLUTION = (400, 240)#(272, 451)#(400, 240)
+DEFAULT_RESOLUTION = (400, 240)#(480, 320) #(320, 240)#(400, 240)#(400, 240)#(800, 600)#
 
 SUPPORTED_DISPLAYS = {
     # display name, resolution, colors if different from its class default

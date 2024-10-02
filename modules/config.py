@@ -543,7 +543,7 @@ class Config:
         t = Timer(auto_start=True, auto_log=True, text="delay init: {0:.3f} sec")
 
         # network
-        await self.gui.set_boot_status("initialize network modules...")
+        await self.gui.set_boot_status("Initialize network modules...")
         from modules.helper.api import api
         from modules.helper.network import Network
 
@@ -584,7 +584,7 @@ class Config:
         )
 
         # logger, sensor
-        await self.gui.set_boot_status("initialize sensor...")
+        await self.gui.set_boot_status("Initialize sensor...")
         self.logger.delay_init()
 
         # GadgetBridge (has to be before gui but after sensors for proper init state of buttons)
