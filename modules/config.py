@@ -606,7 +606,7 @@ class Config:
                 app_logger.info(f"Gadgetbridge service not initialized: {e}")
 
         # gui
-        await self.gui.set_boot_status("initialize screens...")
+        await self.gui.set_boot_status("Initialize screens...")
         self.gui.delay_init()
 
         if self.G_HEADLESS:
